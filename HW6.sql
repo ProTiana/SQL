@@ -57,7 +57,7 @@ CALL even_numbers();
     begin 
     declare num int default 10;
     declare x int default 2;
-    declare even varchar(50) default '7';
+    declare even varchar(50) default ' ';
 	IF num < x then 
     set even = 0;
 		if num = x then 
